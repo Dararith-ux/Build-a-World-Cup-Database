@@ -51,3 +51,6 @@ diff actual_output.txt expected_output.txt
 ./queries.sh > actual_output.txt
 diff actual_output.txt expected_output.txt
 pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+echo "# Build-a-World-Cup-Database" >> README.md
+git init
+git add .
