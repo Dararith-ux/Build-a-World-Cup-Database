@@ -54,3 +54,8 @@ pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
 echo "# Build-a-World-Cup-Database" >> README.md
 git init
 git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Dararith-ux/Build-a-World-Cup-Database.git
+git push -u origin main
+git add .
